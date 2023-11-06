@@ -2,6 +2,7 @@ const User = require("../../../pkg/user/userSchema");
 // npm i jsonwebtoken
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
+const dotenv = require("dotenv");
 
 exports.signup = async (req, res) => {
   try {
